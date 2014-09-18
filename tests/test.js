@@ -1,4 +1,4 @@
-var asset = require('assert');
+var assert = require('assert');
 var fs = require('fs');
 var css = require('css');
 var getPrint = require('../index');
@@ -17,7 +17,7 @@ describe(getPrint.PLUGIN, function() {
         // format to the parsed output
         var against = parseAndFormat('tests/print.css');
 
-        asset.equal(test, against);
+        assert.equal(test, against);
         done();
     });
 });
