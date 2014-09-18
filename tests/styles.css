@@ -1,0 +1,30 @@
+body
+{
+    background: blue;
+}
+
+p
+{
+    color: gray;
+}
+
+@media print
+{
+    body
+    {
+        background: red;
+    }
+
+    p
+    {
+        color: green;
+    }
+}
+
+@media screen and print and (min-width: 500px)
+{
+    div
+    {
+        color: orange;
+    }
+}

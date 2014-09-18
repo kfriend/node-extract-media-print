@@ -1,0 +1,13 @@
+body {
+  background: red;
+}
+
+p {
+  color: green;
+}
+
+@media screen and print and (min-width: 500px) {
+  div {
+    color: orange;
+  }
+}
