@@ -19,7 +19,7 @@ remove the "complex" portions of any media queries, after extracting them.
 ## Issues and bugs
 - Please create an issue for any bugs or problems.
 
-# TODOs and possible TODOs
+## TODOs and possible TODOs
 - Add option for including "global" styles or not. Currently strips them out?
 - Add support for parsing opposite styles, to get all styles that are not print styles?
 - Add options for matching using css-mediaquery?
