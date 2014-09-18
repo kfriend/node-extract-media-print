@@ -33,7 +33,7 @@ var parseSheet = (function() {
  * Flatten tree
  *
  * Takes a CSS AST and reduces it down so simple print @media statements (e.g.
- * no width, other medias besides print) and strips away their media-query wrapper.
+ * no width, other medias besides print) are "flattened" to non media queries.
  *
  * @param  {object} tree The CSS AST produced from the "css" package
  * @return {object}      The flatten tree
