@@ -3,8 +3,21 @@ Extracts `@media print` statements from a CSS stylesheet and spits it back at yo
 
 ## Why would I ever want to use this?
 Our BFF IE 8 is still around, and he doesn't support @media statements. This package allows you
-to write you stylesheets using `@media print`, then extract them later. You can take the extracted
+to write your stylesheets using `@media print`, then extract them later. You can take the extracted
 statements and shove them into a print stylesheet, which you can then throw at IE 8.
+
+## Example
+
+```js
+var fs = require('fs');
+var extractPrint = require('extract-media-print');
+
+// Get our source CSS
+var css = fs.readFileSync('path/to/source/stylsheet.css').toString();
+
+// Parse it, returning only the print styles
+var parsed = extractPrint.parse(css);
+```
 
 ## Heads-up
 - This package currently doesn't do anything special with "complex" `@media print` statements, meaning
