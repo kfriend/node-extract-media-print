@@ -38,3 +38,6 @@ remove the "complex" portions of any media queries, after extracting them.
 - Add options for matching using css-mediaquery?
 - Add support for pulling in a media-query-stripping package?
 - Handle complex media queries, such as `@media screen and print and (max-wi...)` and strip out "print" part?
+
+## License
+MIT
