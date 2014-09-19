@@ -1,6 +1,6 @@
 {
   "name": "extra-media-print",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Extracts `@media print` statements.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,10 @@
   },
   "author": "Kevin Wood-Friend",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "css": "^2.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.0"
   }
 }
