@@ -1,4 +1,3 @@
-// Dependencies
 var css = require('css');
 
 // Plugin info
